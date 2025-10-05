@@ -2,6 +2,8 @@
   "private": "true",
   "type": "module",
   "devDependencies": {
-    "dotenv": "^17.2.3"
+    "browser-sync": "^3.0.4",
+    "dotenv": "^17.2.3",
+    "gulp": "4.0.2"
   }
 }
