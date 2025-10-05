@@ -1,0 +1,88 @@
+# -------------------
+#Gitignore для розробки шаблону gulp
+# -------------------
+
+# -------------------
+# Node modules
+# -------------------
+node_modules/
+
+# -------------------
+# Production / збірка
+# -------------------
+dist/
+build/
+
+# -------------------
+# CSS
+# -------------------
+src/css/**/*.css
+src/css/**/*.map
+!src/css/**/.gitkeep
+
+# -------------------
+# Favicon
+# -------------------
+src/favicon/**/*
+!src/favicon/**/.gitkeep
+
+# -------------------
+# Fonts
+# -------------------
+src/fonts/*
+!src/fonts/.gitkeep
+
+# -------------------
+# Глобальні зображення
+# -------------------
+src/images/**
+!src/images/sprite-src/
+!src/images/sprite-src/.gitkeep
+!src/images/**/.gitkeep
+
+# Спрайт
+src/images/sprite.svg
+
+# -------------------
+# Модульні зображення
+# -------------------
+src/modules/**/images/**
+!src/modules/**/images/sprite-src/
+!src/modules/**/images/sprite-src/.gitkeep
+!src/modules/**/images/**/.gitkeep
+
+# -------------------
+# JS
+# -------------------
+src/js/**/*.js
+src/js/**/*.map
+!src/js/main.js
+
+# -------------------
+# SCSS шаблони
+# -------------------
+!src/scss/**/*.scss
+!src/modules/**/scss/**/*.scss
+
+# -------------------
+# Логи
+# -------------------
+*.log
+yarn-error.log
+npm-debug.log
+
+# -------------------
+# IDE / редактори
+# -------------------
+.idea/
+.vscode/
+# -------------------
+# Файли середовища
+# -------------------
+.env
+
+# -------------------
+# Системні файли
+# -------------------
+.DS_Store
+Thumbs.db
